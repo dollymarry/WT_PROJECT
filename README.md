@@ -204,9 +204,9 @@ http://localhost:5173
 
 
 ### Admin
-   - GET /api/admin/stats
-   - GET /api/admin/users
-   - PUT /api/admin/providers/:id/approve
+    GET /api/admin/stats
+    GET /api/admin/users
+    PUT /api/admin/providers/:id/approve
 
 
 ---
