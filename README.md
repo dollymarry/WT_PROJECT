@@ -8,7 +8,7 @@
 
 Local Service Booking & Tracking System is a full-stack MERN application that connects customers with nearby local service providers such as plumbers, electricians, cleaners, painters, and HVAC technicians.
 
-It supports real-time booking, geolocation-based provider matching (15KM radius), live tracking, secure payments, and an admin monitoring panel.
+It supports real-time booking, geolocation-based provider matching, live tracking, secure payments, and an admin monitoring panel.
 
 ---
 
