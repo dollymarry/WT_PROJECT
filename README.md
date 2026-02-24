@@ -101,6 +101,7 @@ local-service-booking/
 ## 🔐 Environment Variables
 
 ### Server (.env)
+```
 NODE_ENV=development
 PORT=5000
 MONGO_URI=mongodb://localhost:27017/localservices
@@ -112,12 +113,12 @@ RAZORPAY_KEY_SECRET=your_secret
 
 GOOGLE_MAPS_API_KEY=your_maps_key
 CLIENT_URL=http://localhost:5173
-
+```
 ### Client (.env)
+```
 VITE_API_URL=http://localhost:5000/api
-
 VITE_GOOGLE_MAPS_API_KEY=your_maps_key
-
+```
 
 ---
 
