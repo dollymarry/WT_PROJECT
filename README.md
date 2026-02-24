@@ -135,46 +135,55 @@ VITE_GOOGLE_MAPS_API_KEY=your_maps_key
 ## 🔧 Installation
 
 ### 1️⃣ Clone Repository
+```
 git clone https://github.com/yourusername/local-service-booking.git
-
+```
+```
 cd local-service-booking
-
+```
 ---
 
 ### 2️⃣ Install Dependencies
 
 Backend:
+```
 cd server
+```
+```
 npm install
-
+```
 
 Frontend:
+```
 cd ../client
 npm install
-
+```
 
 ---
 
 ## 🚀 Running the Application
 
 ### Start MongoDB
+```
 mongod
-
+```
 
 ### Start Backend
-
+```
 cd server
 npm run dev
-
+```
 
 ### Start Frontend
+```
 cd client
 npm run dev
-
+```
 
 Open:
+```
 http://localhost:5173
-
+```
 ---
 
 ## 📡 Core API Endpoints
