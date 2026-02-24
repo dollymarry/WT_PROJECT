@@ -76,7 +76,7 @@ It supports real-time booking, geolocation-based provider matching (15KM radius)
 ---
 
 ## 📁 Project Structure
-
+```
 local-service-booking/
 ├── client/
 │ ├── public/
@@ -106,7 +106,7 @@ local-service-booking/
 │
 └── README.md
 
-
+```
 ---
 
 ## 🔐 Environment Variables
