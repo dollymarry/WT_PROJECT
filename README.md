@@ -213,69 +213,33 @@ PUT /api/admin/providers/:id/approve
 
 
 ---
-🔐 Security Features
 
-JWT Authentication
+---
 
-Role-based access control
+## 🔐 Security Features
 
-Password hashing (bcrypt)
+- JWT Authentication  
+- Role-based access control  
+- Password hashing (bcrypt)  
+- Secure payment verification  
+- CORS configuration  
+- Protected routes  
+- Environment variable protection  
 
-Secure payment verification
+---
 
-CORS configuration
-
-Protected routes
-
-Environment variable protection
-
-📱 Responsive Design
+## 📱 Responsive Design
 
 Optimized for:
 
-Desktop
+- Desktop  
+- Laptop  
+- Tablet  
+- Mobile  
 
-Laptop
+---
 
-Tablet
+## 🤝 Contributing
 
-Mobile
-
-🤝 Contributing
-
-Fork repository
-
-Create branch
- git checkout -b feature/YourFeature
- Commit changes
-
-git commit -m "Add feature"
-
-Push branch
-
-git push origin feature/YourFeature
-
-Open Pull Request
-
-📄 License
-
-MIT License
-
-👨‍💻 Author
-
-Mohan
-AI & Full Stack Developer
-B.Tech (AI & ML)
-
-🙏 Acknowledgments
-
-React Documentation
-
-Express.js Documentation
-
-MongoDB Documentation
-
-Socket.IO
-
- Razorpay
-
+1. Fork repository  
+2. Create branch  
