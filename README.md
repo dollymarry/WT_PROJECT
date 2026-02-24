@@ -176,37 +176,37 @@ http://localhost:5173
 
 ### Authentication
 
-POST /api/auth/register
-POST /api/auth/login
-GET /api/auth/me
+    POST /api/auth/register
+    POST /api/auth/login
+    GET /api/auth/me
 
 
 ### Services
 
-GET /api/services
-GET /api/services/:id
+    GET /api/services
+    GET /api/services/:id
 
 
 ### Booking
 
-POST /api/bookings/request
-PUT /api/bookings/:id/accept
-PUT /api/bookings/:id/status
-GET /api/bookings/user
+    POST /api/bookings/request
+    PUT /api/bookings/:id/accept
+    PUT /api/bookings/:id/status
+    GET /api/bookings/user
 
 ### Providers
-GET /api/providers/nearby
+    GET /api/providers/nearby
 
 
 ### Payment
-POST /api/payment/create
-POST /api/payment/verify
+    POST /api/payment/create
+    POST /api/payment/verify
 
 
 ### Admin
-GET /api/admin/stats
-GET /api/admin/users
-PUT /api/admin/providers/:id/approve
+    GET /api/admin/stats
+    GET /api/admin/users
+    PUT /api/admin/providers/:id/approve
 
 
 ---
@@ -223,16 +223,9 @@ PUT /api/admin/providers/:id/approve
 - Protected routes  
 - Environment variable protection  
 
----
 
-## 📱 Responsive Design
 
-Optimized for:
 
-- Desktop  
-- Laptop  
-- Tablet  
-- Mobile  
 
 ---
 
