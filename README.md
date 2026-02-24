@@ -127,8 +127,6 @@ VITE_GOOGLE_MAPS_API_KEY=your_maps_key
 ### 1️⃣ Clone Repository
 ```
 git clone https://github.com/yourusername/local-service-booking.git
-```
-```
 cd local-service-booking
 ```
 ---
@@ -138,8 +136,6 @@ cd local-service-booking
 Backend:
 ```
 cd server
-```
-```
 npm install
 ```
 
