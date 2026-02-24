@@ -76,3 +76,208 @@ It supports real-time booking, geolocation-based provider matching (15KM radius)
 ---
 
 ## 📁 Project Structure
+
+local-service-booking/
+├── client/
+│ ├── public/
+│ └── src/
+│ ├── routes/
+│ ├── pages/
+│ │ ├── Landing/
+│ │ ├── Auth/
+│ │ ├── Customer/
+│ │ ├── Provider/
+│ │ └── Admin/
+│ ├── components/
+│ ├── context/
+│ ├── services/
+│ ├── hooks/
+│ └── utils/
+│
+├── server/
+│ ├── config/
+│ ├── controllers/
+│ ├── middleware/
+│ ├── models/
+│ ├── routes/
+│ ├── services/
+│ ├── sockets/
+│ └── utils/
+│
+└── README.md
+
+
+---
+
+## 🔐 Environment Variables
+
+### Server (.env)
+NODE_ENV=development
+PORT=5000
+MONGO_URI=mongodb://localhost:27017/localservices
+JWT_SECRET=your_secret_key
+JWT_EXPIRE=30d
+
+RAZORPAY_KEY_ID=your_key
+RAZORPAY_KEY_SECRET=your_secret
+
+GOOGLE_MAPS_API_KEY=your_maps_key
+CLIENT_URL=http://localhost:5173
+
+### Client (.env)
+VITE_API_URL=http://localhost:5000/api
+
+VITE_GOOGLE_MAPS_API_KEY=your_maps_key
+
+
+---
+
+## 🔧 Installation
+
+### 1️⃣ Clone Repository
+git clone https://github.com/yourusername/local-service-booking.git
+
+cd local-service-booking
+
+---
+
+### 2️⃣ Install Dependencies
+
+Backend:
+cd server
+npm install
+
+
+Frontend:
+cd ../client
+npm install
+
+
+---
+
+## 🚀 Running the Application
+
+### Start MongoDB
+mongod
+
+
+### Start Backend
+
+cd server
+npm run dev
+
+
+### Start Frontend
+cd client
+npm run dev
+
+
+Open:
+http://localhost:5173
+
+---
+
+## 📡 Core API Endpoints
+
+### Authentication
+
+POST /api/auth/register
+POST /api/auth/login
+GET /api/auth/me
+
+
+### Services
+
+GET /api/services
+GET /api/services/:id
+
+
+### Booking
+
+POST /api/bookings/request
+PUT /api/bookings/:id/accept
+PUT /api/bookings/:id/status
+GET /api/bookings/user
+
+### Providers
+GET /api/providers/nearby
+
+
+### Payment
+POST /api/payment/create
+POST /api/payment/verify
+
+
+### Admin
+GET /api/admin/stats
+GET /api/admin/users
+PUT /api/admin/providers/:id/approve
+
+
+---
+🔐 Security Features
+
+JWT Authentication
+
+Role-based access control
+
+Password hashing (bcrypt)
+
+Secure payment verification
+
+CORS configuration
+
+Protected routes
+
+Environment variable protection
+
+📱 Responsive Design
+
+Optimized for:
+
+Desktop
+
+Laptop
+
+Tablet
+
+Mobile
+
+🤝 Contributing
+
+Fork repository
+
+Create branch
+ git checkout -b feature/YourFeature
+ Commit changes
+
+git commit -m "Add feature"
+
+Push branch
+
+git push origin feature/YourFeature
+
+Open Pull Request
+
+📄 License
+
+MIT License
+
+👨‍💻 Author
+
+Mohan
+AI & Full Stack Developer
+B.Tech (AI & ML)
+
+🙏 Acknowledgments
+
+React Documentation
+
+Express.js Documentation
+
+MongoDB Documentation
+
+Socket.IO
+
+ Razorpay
+
